@@ -8,5 +8,10 @@ pipeline {
                 bat 'python click.py'
             }
         }
+        stage('Click') {    
+            steps {
+            bat 'python click.py'
+            }    
+        }
     }
 }
