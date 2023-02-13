@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat 'dir'
+                bat 'python welcome'
                 bat 'python click.py'
             }
         }
